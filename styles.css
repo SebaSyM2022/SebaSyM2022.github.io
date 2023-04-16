@@ -23,7 +23,10 @@ h2 {
 p {
   font-size: 24px;
 }
-
+p {
+  color: green;
+  margin-bottom: 20px;
+}
 .green-text {
   color: green;
 }
