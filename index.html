@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Mi Página Web</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Mi página web</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="header">
-      <h1>Mi Página Web</h1>
+    <header>
+      <div class="logo">
+        <a href="#"><img src="logo.png" alt="Logo"></a>
+      </div>
       <nav>
         <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contacto</a></li>
         </ul>
       </nav>
+    </header>
+    <div class="banner">
+      <h1>Bienvenidos</h1>
+      <p>En Netcol podrán encontrar servidores para Colombia para los operadores como: Tigo, Movistar, Claro y Wom en el momento. Con Ip Colombiana en todo momento, también tenemos servidores gratis y servidores privados con garantía en todo momento. También encontrarán plataformas como: Netflix, Amazon, Disney Plus, Hbo Max, Cunchyroll, Start+, Amazon Prime, Spotify y YouTube Premium.</p>
+      <a href="#" class="btn-primary">Comprar ahora</a>
     </div>
-    <div id="inicio">
-      <h2>Inicio</h2>
-      <p>¡Bienvenidos a mi página web!</p>
-      <p class="green-text">Aquí encontrarás información sobre nuestros productos y servicios.</p>
-    </div>
-    <div id="servicios">
-      <h2>Servicios</h2>
+    <section class="services">
+      <h2>Servicios que ofrecemos</h2>
+      <p>Ofrecemos una amplia gama de servicios para nuestros clientes:</p>
       <ul>
-        <li class="blue-text">Servicio 1</li>
-        <li>Servicio 2</li>
-        <li class="blue-text">Servicio 3</li>
+        <li>Servidores para Colombia</li>
+        <li>Servidores gratis y privados</li>
+        <li>Plataformas de streaming: Netflix, Amazon, Disney Plus, Hbo Max, Cunchyroll, Start+, Amazon Prime, Spotify y YouTube Premium</li>
       </ul>
-    </div>
-    <div id="contacto">
+    </section>
+    <section class="about">
+      <h2>Acerca de Netcol</h2>
+      <p>Netcol es una empresa colombiana dedicada a brindar servicios de servidores y plataformas de streaming a nuestros clientes. Nos enorgullece ofrecer soluciones innovadoras y de alta calidad para satisfacer sus necesidades. </p>
+    </section>
+    <section class="contact">
       <h2>Contacto</h2>
-      <form>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre"><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br>
-
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje"></textarea><br>
-
-        <button type="submit">Enviar</button>
-      </form>
-    </div>
-    <div class="footer">
-      <p class="small-text">© 2023 @SyMnet1</p>
-    </div>
+      <p>Para cualquier consulta o pregunta, no dude en ponerse en contacto con nosotros:</p>
+      <ul>
+        <li>Teléfono: 123-456-789</li>
+        <li>Correo electrónico: info@netcol.com</li>
+        <li>Dirección: Calle 123, Bogotá, Colombia</li>
+      </ul>
+    </section>
+    <footer>
+      <p>© 2023 Netcol. Todos los derechos reservados.</p>
+    </footer>
   </body>
 </html>
